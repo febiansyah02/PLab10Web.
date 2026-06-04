@@ -133,4 +133,33 @@ A. Pengujian GET (Menampilkan Semua Data)
 - Keterangan: Mengembalikan struktur data objek bersarang (JSON) berisi seluruh list isi baris tabel artikel di database.
 
 - Bukti Dokumentasi:
-(Silakan tempel atau masukkan screenshot pengujian GET All Data kamu di sini)
+<img width="1360" height="763" alt="Cuplikan layar 2026-06-04 160751" src="https://github.com/user-attachments/assets/de51fd06-2a4d-464a-bc83-35dcd5c45367" />
+
+B. Pengujian POST (Menambahkan Data Baru)
+- Endpoint URL: http://localhost:8080/post
+
+- HTTP Method: POST
+
+- Format Body: x-www-form-urlencoded
+
+- Status HTTP: 201 Created
+
+- Keterangan: Mengirim data judul dan isi baru ke server, menghasilkan penambahan record data dinamis pada baris database.
+
+- Bukti Dokumentasi:
+<img width="1364" height="763" alt="Cuplikan layar 2026-06-04 161417" src="https://github.com/user-attachments/assets/c0d416ae-14c8-453d-a9d1-7b378e6fa633" />
+
+C. Pengujian DELETE (Menghapus Data Spesifik)
+- Endpoint URL: http://localhost:8080/post/{id} (Contoh: http://localhost:8080/post/5)
+
+- HTTP Method: DELETE
+
+- Status HTTP: 200 OK
+
+- Keterangan: Mengirimkan parameter ID data spesifik untuk dibersihkan secara permanen dari penyimpanan basis data.
+
+- Bukti Dokumentasi:
+<img width="1363" height="763" alt="Cuplikan layar 2026-06-04 161924" src="https://github.com/user-attachments/assets/026ed4f8-2cdc-45bd-a7ae-794001b5b2f5" />
+
+Kesimpulan
+Melalui pengerjaan Praktikum 10 ini, arsitektur RESTful web service berhasil diterapkan pada framework CodeIgniter 4. Pemisahan logika data melalui pembatasan hak akses client menggunakan metode verbs standar (GET, POST, PUT, DELETE) terbukti mempermudah komunikasi antar-platform yang aman, teratur, dan efisien.
