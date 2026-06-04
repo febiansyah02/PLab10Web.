@@ -162,4 +162,5 @@ C. Pengujian DELETE (Menghapus Data Spesifik)
 <img width="1363" height="763" alt="Cuplikan layar 2026-06-04 161924" src="https://github.com/user-attachments/assets/026ed4f8-2cdc-45bd-a7ae-794001b5b2f5" />
 
 Kesimpulan
+
 Melalui pengerjaan Praktikum 10 ini, arsitektur RESTful web service berhasil diterapkan pada framework CodeIgniter 4. Pemisahan logika data melalui pembatasan hak akses client menggunakan metode verbs standar (GET, POST, PUT, DELETE) terbukti mempermudah komunikasi antar-platform yang aman, teratur, dan efisien.
